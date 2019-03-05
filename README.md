@@ -23,3 +23,5 @@ This relied on having the optical flow and RGB frames extracted and saved as ima
 
 ## Feature Extraction
 [extract_features.py](extract_features.py) contains the code to load a pre-trained I3D model and extract the features and save the features as numpy arrays. The [charades_dataset_full.py](charades_dataset_full.py) script loads an entire video to extract per-segment features.
+
+extract_anan.py,extract_hevi.py,extract_taiwan.py was used in paper:https://arxiv.org/abs/1903.00618
